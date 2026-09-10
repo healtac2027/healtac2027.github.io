@@ -3,47 +3,13 @@ permalink: /publication/
 title: "Publication"
 ---
 
-<html>
-<meta name="viewport" content="width=device-width, initial-scale=1"> 
-<head>
-<style>
-body {
-  font-family: sans-serif;
-}
-a:link {
-  color:  black;
-  background-color: transparent;
-  text-decoration: none;
-}
-a:visited {
-  color: black;
-  background-color: #F0F8FF;
-  text-decoration: none;
-}
-a:hover {
-  color: #003865;
-  background-color: #F0F8FF;
-  text-decoration: underline;
-}
-a:active {
-  color: #003865;
-  background-color: #F8F8FF;
-  text-decoration: underline;
-}
-</style>
-</head>
-    
-<body>
-    
-<p>We will publish an online list of abstracts.</p>
+<p style="border-left:4px solid #6495ED; background-color:#F0F8FF; padding:10px 14px;">
+<strong>Draft site.</strong> Post-conference publication arrangements for 2027 are to be confirmed.
+</p>
 
-<p> As in previous years, authors of all accepted presentations will be
-invited to submit a paper to a special Research Topic in <a href="https://www.frontiersin.org/research-topics/79680/healthcare-text-analytics-unlocking-the-evidence-from-free-text-volume-vi" style='color:#003865'>Frontiers in
-Digital Health</a></p>
+We will publish an online list of accepted abstracts.
 
-
-</body>
-</html>
-
-
-
+As in previous years, we expect that authors of all accepted presentations will be invited to
+submit a paper to a special Research Topic in
+[Frontiers in Digital Health](https://www.frontiersin.org/journals/digital-health). The Research
+Topic for HealTAC 2027 will be linked here once it has been set up.

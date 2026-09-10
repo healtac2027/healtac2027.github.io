@@ -5,8 +5,6 @@ title: "Calls"
 
 <html>
 <head>
-<!-- <link href='https://fonts.googleapis.com/css?family=Akaya Telivigala' rel='stylesheet'>
- -->
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
  body {
@@ -48,33 +46,34 @@ title: "Calls"
   text-align: center;
   background-color: #009999;
 }
+.draft-notice {
+  border-left: 4px solid #6495ED;
+  background-color: #F0F8FF;
+  padding: 10px 14px;
+  margin: 0 0 20px 0;
+}
 </style>
 </head>
 
 <body>
 
+<p class="draft-notice"><strong>Draft site.</strong> The call for contributions for HealTAC 2027 has
+not yet been issued. The text below is indicative; the theme, deadlines and submission details are
+still to be confirmed.</p>
+
 <h3>Please refer to the <a href="/submissions/">Submission page</a> for the detailed formats.</h3>
 
 <h2 style="color:#009999;">Call for contributions</h2>
-<!--<p>The 9th Healthcare Text Analytics Conference (HealTAC 2026) invites contributions that address any aspect of healthcare text analytics. This year’s theme is Human-Centered AI & NLP: Bridging Research and Real-World Practice</p>
-<p>We are delighted to announce a keynote by TBC </p>
-<p>We invite submissions in the form of extended abstracts (up to 2 pages) describing methodological or application-focused work that has not been previously presented at a conference. Submissions should be prepared based on a template that is available at the <a href="/submissions/">Submission page</a>. This year, we will focus on Human-Centered AI & NLP: Bridging Research and Real-World Practice, so we encourage submissions in that space in particular.</p>
-<p>We also invite submissions describing ongoing PhD research (at any stage) or planned fellowship applications. The conference will provide an opportunity to receive constructive feedback from a panel of experts.</p>
-<p>In addition, we invite submissions for software demonstrations, and new for 2026, we are also welcoming proposals for panel discussions.</p>-->
- <p>Healthcare narrative (such as clinical notes, discharge letters, nurse handover notes, imaging reports, patients posts on social media or feedback comments, etc.) has been used as a key communication stream that contains the majority of actionable and contextualised healthcare data, but which – despite being increasingly available in a digital form – is not routinely analysed and integrated with other healthcare data on a large-scale. There are many barriers and challenges in processing healthcare free text, including, for example, the variability and implicit nature of language expressions, and difficulties in sharing training and evaluation data. On the other hand, recent years have witnessed increasing opportunities to process free text, with a number of success stories that have demonstrated the feasibility of using advanced Natural Language Processing to unlock evidence contained in free text to support clinical care, patient self-management, epidemiological research and audit.</p>
 
-<p>This year, HealTAC will specifically focus on "Human-Centered AI & NLP: Bridging Research and Real-World Practice". We invite submissions in the form of extended abstracts (up to 2 pages) that describe either methodological or application work, as well as software demos, discussion panels and PhD and fellowship project submissions. The contribution types and the submission process are available <a href="/submissions/">here</a>.</p> 
+<p>Healthcare narrative (such as clinical notes, discharge letters, nurse handover notes, imaging reports, patients posts on social media or feedback comments, etc.) has been used as a key communication stream that contains the majority of actionable and contextualised healthcare data, but which &ndash; despite being increasingly available in a digital form &ndash; is not routinely analysed and integrated with other healthcare data on a large-scale. There are many barriers and challenges in processing healthcare free text, including, for example, the variability and implicit nature of language expressions, and difficulties in sharing training and evaluation data. On the other hand, recent years have witnessed increasing opportunities to process free text, with a number of success stories that have demonstrated the feasibility of using advanced Natural Language Processing to unlock evidence contained in free text to support clinical care, patient self-management, epidemiological research and audit.</p>
+
+<p>The theme for HealTAC 2027 is <strong>to be confirmed</strong> and will be announced with the first call. We will invite submissions in the form of extended abstracts (up to 2 pages) that describe either methodological or application work, as well as software demos, discussion panels and PhD and fellowship project submissions. The contribution types and the submission process are available <a href="/submissions/">here</a>.</p>
 
 <h2 style="color:#009999;">Topics</h2>
-<p> HealTAC 2026 invites contributions that address any aspect of healthcare text analytics. This year’s topics will focus on "Human-Centered AI & NLP: Bridging Research and Real-World Practice", but other topics are also welcome including: </p>
+<p>HealTAC 2027 invites contributions that address any aspect of healthcare text analytics. A
+themed focus will be announced with the first call; other topics are also welcome, including:</p>
 <p> </p>
 
-  <div class="row">
-    <div class="card">
-       <p style="color: #ffffff; text-shadow: 0.2px 0.2px">Human-AI collaboration in healthcare NLPs</p>
-  </div>
-  </div>
-<br>
 <div class="row">
 
   <div class="column">
@@ -102,7 +101,7 @@ title: "Calls"
        <p style="color: #ffffff; text-shadow: 0.2px 0.2px">Datasets for healthcare text analytics</p>
     </div>
   </div>
- 
+
   <div class="column">
     <div class="card">
        <p style="color: #ffffff; text-shadow: 0.2px 0.2px">Processing clinical literature and trial reports</p>
@@ -131,7 +130,7 @@ title: "Calls"
     <div class="card">
        <p style="color: #ffffff; text-shadow: 0.2px 0.2px">Speech analytics for healthcare applications</p>
     </div>
-  </div>  
+  </div>
 
 </div>
 <br>
@@ -147,7 +146,7 @@ title: "Calls"
        <p style="color: #ffffff; text-shadow: 0.2px 0.2px">Real-world application of healthcare text analytics</p>
     </div>
   </div>
-  
+
   <div class="column">
     <div class="card">
        <p style="color: #ffffff; text-shadow: 0.2px 0.2px">Scalable and secure healthcare NLP infrastructures</p>
@@ -161,7 +160,7 @@ title: "Calls"
        <p style="color: #ffffff; text-shadow: 0.2px 0.2px">Text mining for veterinary medicine</p>
     </div>
   </div>
-  
+
   <div class="column">
     <div class="card">
        <p style="color: #ffffff; text-shadow: 0.2px 0.2px">Privacy-preserving healthcare analytics</p>
@@ -181,7 +180,7 @@ title: "Calls"
        <p style="color: #ffffff; text-shadow: 0.2px 0.2px">Evaluation, assessment, and reproducibility in healthcare text analytics</p>
     </div>
   </div>
-  
+
   <div class="column">
     <div class="card">
        <p style="color: #ffffff; text-shadow: 0.2px 0.2px">Patient-facing text analytics: presenting clinical insights for patients</p>
@@ -201,13 +200,13 @@ title: "Calls"
        <p style="color: #ffffff; text-shadow: 0.2px 0.2px">Information extraction: identification of clinical variables and their values in free-text</p>
     </div>
   </div>
-  
+
   <div class="column">
     <div class="card">
        <p style="color: #ffffff; text-shadow: 0.2px 0.2px">Processing patient-generated data (e.g. social media, health forums, diaries)</p>
     </div>
   </div>
-  
+
   <div class="column">
     <div class="card">
        <p style="color: #ffffff; text-shadow: 0.2px 0.2px">Implementation of healthcare text analytics in practice: public engagement and governance</p>

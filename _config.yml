@@ -9,18 +9,16 @@
 # 'bundle exec jekyll serve'. If you change this file, please restart the server process.
 
 # Site settings
-# These are used to personalize your new site. If you look in the HTML files,
-# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
-# You can create any custom variable you would like, and they will be accessible
-# in the templates via {{ site.myvariable }}.
-title: HealTAC 2026
+title: HealTAC 2027
 email:
 description: >- # this means to ignore newlines until "baseurl:"
-  9th Healthcare Text Analytics Conference
-url: https://healtac2026.github.io/
+  10th Healthcare Text Analytics Conference
+# Final home of the site. The GitHub Actions workflow overrides url/baseurl at
+# build time, so the draft deploys correctly from whichever repository hosts it.
+url: https://healtac2027.github.io/
 baseurl: /
-twitter_username: username
-github_username: username
+twitter_username: uk_healtex
+github_username: healtac2027
 minimal_mistakes_skin: default
 search: true
 
@@ -31,25 +29,14 @@ remote_theme: mmistakes/minimal-mistakes
 permalink: /:categories/:title/
 paginate: 5 # amount of posts to show
 paginate_path: /page:num/
-timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone: Europe/London
 
 include:
   - _pages
 
-# Exclude from processing.
-# The following items will not be processed, by default. Create a custom list
-# to override the default setting.
-# exclude:
-#   - Gemfile
-#   - Gemfile.lock
-#   - node_modules
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
-
 # Plugins (previously gems:)
 plugins:
+  - jekyll-remote-theme
   - jekyll-paginate
   - jekyll-sitemap
   - jekyll-gist
@@ -58,181 +45,56 @@ plugins:
   - jekyll-include-cache
 
 author:
-  # name   : "HealTAC 2026"
-  # avatar : "/assets/images/bio-photo.jpg"
-  # bio    : "9th Healthcare Text Analytics Conference"
-
-
   links:
-    # - label: "<strong style='color:#003865;'>TUTORIAL</strong><br><span style='color: black;'>Resources<br>"
-    #   icon: "fas fa-laptop-code"
-    #   url: https://knowlab.github.io/healtac2025_tutorial/
-    - label: "<strong style='color:#003865;'>BOOK OF ABSTRACTS</strong><br><span style='color:black;'>Download<br>"
-      icon: "fas fa-file-pdf"
-      url: /assets/Book_of_Abstracts.pdf
-    # - label: "<strong style='color:#003865;'>ACCOMMODATION</strong><br><span style='color:black;'>Book now.<br>"
-    #   icon: "fas fa-home"
-    #   url: https://healtac2025.github.io/accommodation/
-    # - label: "<strong style='color:#003865;'>REGISTRATION</strong><br><span style='color:black;'>Now open.<br>"
-    #   icon: "far fa-comment"
-    # url: https://healtac2025.github.io/registration/
-    # - label: "<strong style='color:#003865;'>Key Dates</strong><br>– <span style='color: black;'><strong>Conference:</strong><br>June 16-18, 2025<br>– <span style='color: black;'><strong>Deadline for all contributions:</strong><br>April 4, 2025<br>– <span style='color: black;'><strong>Notification of acceptance:</strong><br> April 18, 2025</span><br>"
-    #    icon: "far fa-calendar-alt"
-    #    url: https://healtac2025.github.io/submissions/
-    #  - label: "<strong style='color:#003865;'>Keynotes</strong><br>– <span style='color: black;'><strong>Jason Fries</strong> (Stanford Uni)<br>– <span style='color: black;'><strong>Alison O'Neil</strong> (Canon Medical)"
-    #   icon: "far fa-calendar-alt"
-    #   url: https://healtac2025.github.io/programme/
     - label:  |
         <strong style='color:#6495ED;'>KEY DATES</strong>
         <table style="width:100%; border-collapse: collapse; table-layout: fixed;">
           <tbody>
 
             <tr>
-              <td style="padding:6px 4px; vertical-align: top;">
-                <strong>Extended submission</strong>
-              </td>
-              <td style="padding:6px 4px; vertical-align: top;">
-                <strong>13 March 2026</strong>
-              </td>
+              <td style="padding:6px 4px; vertical-align: top;"><strong>First call</strong></td>
+              <td style="padding:6px 4px; vertical-align: top;">TBC</td>
             </tr>
 
             <tr>
-              <td style="padding:6px 4px; vertical-align: top;">
-                <strong><s>Submission</s></strong>
-              </td>
-              <td style="padding:6px 4px; vertical-align: top;"> 
-                <s>27 February 2026</s>
-              </td>
+              <td style="padding:6px 4px; vertical-align: top;"><strong>Submission deadline</strong></td>
+              <td style="padding:6px 4px; vertical-align: top;">TBC</td>
             </tr>
 
             <tr>
               <td style="padding:6px 4px; vertical-align: top;"><strong>Notification</strong></td>
-              <td style="padding:6px 4px; vertical-align: top;">17 April 2026</td>
+              <td style="padding:6px 4px; vertical-align: top;">TBC</td>
             </tr>
 
             <tr>
-              <td style="padding:6px 4px; vertical-align: top;"><strong>Early registration ends</strong></td>
-              <td style="padding:6px 4px; vertical-align: top;"><s>4 May 2026</s></td>
-            </tr>
-            <tr>
-            <td style="padding:6px 4px; vertical-align: top;"><strong>(Extended to)</strong></td>
-              <td style="padding:6px 4px; vertical-align: top;">8 May 2026</td>
+              <td style="padding:6px 4px; vertical-align: top;"><strong>Registration opens</strong></td>
+              <td style="padding:6px 4px; vertical-align: top;">TBC</td>
             </tr>
 
             <tr>
               <td style="padding:6px 4px; vertical-align: top;"><strong>Conference</strong></td>
-              <td style="padding:6px 4px; vertical-align: top;">8–10 June 2026</td>
+              <td style="padding:6px 4px; vertical-align: top;">TBC</td>
             </tr>
 
           </tbody>
         </table>
       icon: "far fa-calendar-alt"
       url: "javascript:void(0)"
-    - label: "<strong style='color:#6495ED;'>KEYNOTES</strong><br>–<span style='color: black;'><strong>Dr Martin Krallinger</strong><br>(Barcelona Supercomputing Center)</span><br>–<span style='color: black;'><strong>Prof. Aline Villavicencio</strong><br>(University of Exeter &amp; Sheffield)</span>"
+    - label: "<strong style='color:#6495ED;'>KEYNOTES</strong><br><span style='color: black;'>To be announced</span>"
       icon: "fas fa-user-friends"
       url: /keynotes/
-    # - label: "<strong style='color:#003865;'>Previous HealTACs</strong><br>"
-    #   icon: "fas fa-fw fa-link"
-    #   url: http://healtex.org/healtac-conference-series/
-    # - label: "<span style='color: black;'>HealTAC-2024</span>"
-    #   # icon: "fas fa-fw fa-link"
-    #   url: http://healtex.org/healtac-2024/
-    # - label: "<span style='color: black;'>HealTAC-2023</span>"
-    #   # icon: "fas fa-fw fa-link"
-    #   url: http://healtex.org/healtac-2023/
-    # - label: "<span style='color: black;'>HealTAC-2022</span>"
-    #   # icon: "fas fa-fw fa-link"
-    #   url: https://healtac2022.github.io/
-    # - label: "<span style='color: black;'>HealTAC-2021</span>"
-    #   # icon: "fas fa-fw fa-link"
-    #   url: http://healtex.org/healtac-2021/
-    # - label: "<span style='color: black;'>HealTAC-2020</span>"
-    #   # icon: "fas fa-fw fa-link"
-    #   url: http://healtex.org/healtac-2020/
-    # - label: "<span style='color: black;'>HealTAC-2019</span>"
-    #   # icon: "fas fa-fw fa-link"
-    #   url: http://healtex.org/healtac-2019/
-    # - label: "<span style='color: black;'>HealTAC-2018</span>"
-    #   # icon: "fas fa-fw fa-link"
-    #   url: http://healtex.org/healtac-2018/
-    # - label: |
-    #     <strong style='color:#003865;'>Sponsors</strong><br><br>
-    #     <div style="display: flex; flex-direction: column;">
-    #       <img src="/assets/images/sponsors/HDR UK.jpg" alt="HDR UK" style="margin-bottom: 10px; max-width: 100px;"><br><br>
-    #       <img src="/assets/images/sponsors/HealTex.jpeg" alt="HealTex" style="margin-bottom: 10px; max-width: 100px;"><br><br>
-    #       <img src="/assets/images/sponsors/Frontiers.jpg" alt="Frontiers" style="margin-bottom: 10px; max-width: 100px;"><br><br>
-    #       <img src="/assets/images/sponsors/University of Glasgow.png" alt="University of Glasgow" style="margin-bottom: 10px; max-width: 100px;"><br><br>
-    #       <img src="/assets/images/sponsors/Research Data Scotland.png" alt="Research Data Scotland" style="margin-bottom: 10px; max-width: 100px;"><br><br>
-    #       <img src="/assets/images/sponsors/NCRM.jpg" alt="NCRM" style="margin-bottom: 10px; max-width: 100px;"><br><br>
-    #     </div>
-    #     <br><br>
-    #   icon: "fas fa-handshake"
-    #   url: ""
-    - label: |
-        <strong style='color:#6495ED;'>SPONSORS</strong>
+    - label: "<strong style='color:#6495ED;'>SPONSORS</strong><br><span style='color: black;'>To be confirmed</span>"
       icon: "fas fa-handshake"
       url: "javascript:void(0)"
-    - label: |
-        <div style="display: flex; flex-direction: column;">
-          <img src="/assets/images/sponsors/dareuk.png" alt="DareUK" style="margin-bottom: 2.5px; max-width: 200px;">
-        </div>
-      icon: "<i class='fas fa-square' style='visibility: hidden;'></i>"
-      url: "https://dareuk.org.uk/"
-    - label: |
-        <div style="display: flex; flex-direction: column;">
-          <img src="/assets/images/sponsors/HDR UK.jpg" alt="HDRUK" style="margin-bottom: 2.5px; max-width: 200px;">
-        </div>
-      icon: "<i class='fas fa-square' style='visibility: hidden;'></i>"
-      url: "https://www.hdruk.ac.uk/"
 
-    - label: |
-        <div style="display: flex; flex-direction: column;">
-          <img src="/assets/images/sponsors/kcl-logo.svg" alt="King's College London" style="margin-bottom: 2.5px; max-width: 100px;">
-        </div>
-      icon: "<i class='fas fa-square' style='visibility: hidden;'></i>"
-      url: "https://www.kcl.ac.uk/"
-    - label: |
-        <div style="display: flex; flex-direction: column;">
-        <img src="/assets/images/sponsors/BSMS-Logo-Black.jpg" alt="Brighton and Sussex Medical School" style="margin-bottom: 2.5px; max-width: 200px;">
-        </div>
-      icon: "<i class='fas fa-square' style='visibility: hidden;'></i>"
-      url: "https://www.bsms.ac.uk/"
-    - label: |
-        <div style="display: flex; flex-direction: column;">
-          <img src="/assets/images/safetext.png" alt="safetext" style="margin-bottom: 2.5px; max-width: 200px;">
-        </div>
-      icon: "<i class='fas fa-square' style='visibility: hidden;'></i>"
-      url: "https://www.linkedin.com/company/safetext-working-group/"
-    - label: |
-        <div style="display: flex; flex-direction: column;">
-          <img src="/assets/images/sponsors/CogStack.png" alt=Cogstack" style="margin-bottom: 2.5px; max-width: 200px;">
-        </div>
-      icon: "<i class='fas fa-square' style='visibility: hidden;'></i>"
-      url: "https://cogstack.org/"
-    - label: |
-        <div style="display: flex; flex-direction: column;">
-          <img src="/assets/images/sponsors/Frontiers.jpg" alt="Frontier" style="margin-bottom: 2.5px; max-width: 200px;">
-        </div>
-      icon: "<i class='fas fa-square' style='visibility: hidden;'></i>"
-      url: "https://www.frontiersin.org/journals/digital-health"
-    - label: |
-        <div style="display: flex; flex-direction: column;">
-          <img src="/assets/images/sponsors/maudsley_logo.png" alt="Maudsley" style="margin-bottom: 2.5px; max-width: 200px;">
-        </div>
-      icon: "<i class='fas fa-square' style='visibility: hidden;'></i>"
-      url: "https://www.maudsleybrc.nihr.ac.uk/"
 footer:
   links:
     - label: "Twitter/X"
-#      icon: "fab fa-fw fa-twitter-square"
       icon: "fab fa-fw fa-x-twitter"
       url: "https://twitter.com/uk_healtex"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/healtac2026/"
-#    - label: "Instagram"
-#      icon: "fab fa-fw fa-instagram"
-#      url: "https://instagram.com/"
+      url: "https://github.com/healtac2027/"
 
 defaults:
   # _posts

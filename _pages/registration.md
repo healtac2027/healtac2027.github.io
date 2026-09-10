@@ -3,50 +3,15 @@ permalink: /registration/
 title: "Registration"
 ---
 
-<html>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
-<head>
-<style>
-body {
-  font-family: sans-serif;
-}
-</style>
-</head>
-<body>
-<br>
-Register <a href="https://estore.kcl.ac.uk/conferences-and-events/academic-faculties/institute-of-psychiatry-psychology-neuroscience/department-of-biostatistics-health-informatics/healtac-2026-9th-healthcare-text-analytics-conference">here</a>. 
-<!-- Please book via the <a href="https://healtac2026.github.io" style="color: #6495ED; background-color: #F0F8FF; text-decoration: none;" target="_blank">TBA page</a>.-->
-<p></p>
-Early registration fees (<strong>by <s>4th May</s> extended to 8 May 2026</strong>):
-<ul>
-  <li>Full registration: £240</li>
-  <li>Student registration: £140</li>
-  <li>Presenting student registration: £40</li>
-</ul>
-
-Late registration fees (<strong>now after <s>4th May</s> 8 May 2026</strong>):
-<ul>
-  <li>Full registration: £340</li>
-  <li>Student registration: £190</li>
-</ul>
-
-
- <p>The fee includes participation for three days (including the pre-conference workshop day). All fees include a conference dinner on 9 June 2026. </p>
-
-<p> It is also possible to register for workshop only (8 June) for <b>free</b>. 
-</p> 
-
-<p>
-Registration for PhD students accepted to present at the PhD Forum will
-receive a discounted registration of £40. Therefore, applicants should
-wait for the review outcome before registering.
+<p style="border-left:4px solid #6495ED; background-color:#F0F8FF; padding:10px 14px;">
+<strong>Draft site.</strong> Registration for HealTAC 2027 is not yet open.
 </p>
 
-<strong>Childcare</strong>:
-<ul>
-  <li>We can source local childcare if required for attendees. You would have
-to make your own arrangements to pay for it.</li>
-</ul>
-</body>
-</html>
+Registration for HealTAC 2027 will open in due course. Fees, the registration link and the
+early registration deadline will be published on this page.
+
+The registration fee is expected to include participation for the full conference, including
+any pre-conference workshop day, and the conference dinner.
+
+**Childcare**: as in previous years, we expect to be able to source local childcare if required
+for attendees. Attendees would need to make their own arrangements to pay for it.
