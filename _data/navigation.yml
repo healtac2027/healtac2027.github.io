@@ -24,8 +24,6 @@ main:
     url: /committees/
   # - title: "Dates"
   #   url: /dates/
-  # - title: "Calls and Dates"
-  #   url: /datesandcalls/
   - title: "Venue"
     url: /venue/
   - title: "Instructions for Presenters"

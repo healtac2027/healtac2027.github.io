@@ -61,13 +61,13 @@ title: "Calls"
 not yet been issued. The text below is indicative; the theme, deadlines and submission details are
 still to be confirmed.</p>
 
-<h3>Please refer to the <a href="/submissions/">Submission page</a> for the detailed formats.</h3>
+<h3>Please refer to the <a href="{{ "/submissions/" | relative_url }}">Submission page</a> for the detailed formats.</h3>
 
 <h2 style="color:#009999;">Call for contributions</h2>
 
 <p>Healthcare narrative (such as clinical notes, discharge letters, nurse handover notes, imaging reports, patients posts on social media or feedback comments, etc.) has been used as a key communication stream that contains the majority of actionable and contextualised healthcare data, but which &ndash; despite being increasingly available in a digital form &ndash; is not routinely analysed and integrated with other healthcare data on a large-scale. There are many barriers and challenges in processing healthcare free text, including, for example, the variability and implicit nature of language expressions, and difficulties in sharing training and evaluation data. On the other hand, recent years have witnessed increasing opportunities to process free text, with a number of success stories that have demonstrated the feasibility of using advanced Natural Language Processing to unlock evidence contained in free text to support clinical care, patient self-management, epidemiological research and audit.</p>
 
-<p>The theme for HealTAC 2027 is <strong>to be confirmed</strong> and will be announced with the first call. We will invite submissions in the form of extended abstracts (up to 2 pages) that describe either methodological or application work, as well as software demos, discussion panels and PhD and fellowship project submissions. The contribution types and the submission process are available <a href="/submissions/">here</a>.</p>
+<p>The theme for HealTAC 2027 is <strong>to be confirmed</strong> and will be announced with the first call. We will invite submissions in the form of extended abstracts (up to 2 pages) that describe either methodological or application work, as well as software demos, discussion panels and PhD and fellowship project submissions. The contribution types and the submission process are available <a href="{{ "/submissions/" | relative_url }}">here</a>.</p>
 
 <h2 style="color:#009999;">Topics</h2>
 <p>HealTAC 2027 invites contributions that address any aspect of healthcare text analytics. A

@@ -20,4 +20,4 @@ As in previous years, the conference is expected to include:
 - pre- or post-conference workshops and tutorials
 
 For the shape of a typical HealTAC programme, see the
-[previous conferences](/previous-conferences/) in the series.
+[previous conferences]({{ "/previous-conferences/" | relative_url }}) in the series.

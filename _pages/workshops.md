@@ -11,4 +11,4 @@ HealTAC 2027 is expected to include pre- or post-conference workshops and tutori
 each workshop, including its programme and how to register, will be published on this page.
 
 A call for workshop and tutorial proposals will be issued alongside the
-[call for contributions](/cfp/).
+[call for contributions]({{ "/cfp/" | relative_url }}).
