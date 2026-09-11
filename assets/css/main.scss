@@ -27,3 +27,32 @@
     width: 100% !important;
   }
 }
+
+// Responsive 16:9 wrapper for embedded video (padding-bottom keeps the ratio in
+// browsers without `aspect-ratio`).
+.video-embed {
+  position: relative;
+  width: 100%;
+  max-width: 760px;
+  height: 0;
+  padding-bottom: 56.25%;
+  margin: 1.5em 0;
+  background: #000;
+
+  iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 0;
+  }
+}
+
+// Standing note used across the draft pages.
+.draft-notice {
+  border-left: 4px solid #6495ED;
+  background-color: #F0F8FF;
+  padding: 0.625em 0.875em;
+  margin: 0 0 1.25em 0;
+}

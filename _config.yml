@@ -12,7 +12,7 @@
 title: HealTAC 2027
 email:
 description: >- # this means to ignore newlines until "baseurl:"
-  10th Healthcare Text Analytics Conference
+  10th Healthcare Text Analytics Conference, Sheffield, UK
 # Organisation page: the site is served from the domain root, so baseurl is empty.
 # Keep `url` without a trailing slash, or canonical/og:url pick up a double slash.
 url: https://healtac2027.github.io

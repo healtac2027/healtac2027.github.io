@@ -3,7 +3,7 @@ permalink: /programme/
 title: "Programme"
 ---
 
-<p style="border-left:4px solid #6495ED; background-color:#F0F8FF; padding:10px 14px;">
+<p class="draft-notice">
 <strong>Draft site.</strong> The HealTAC 2027 programme has not yet been drafted.
 </p>
 

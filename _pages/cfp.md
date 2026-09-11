@@ -46,12 +46,6 @@ title: "Calls"
   text-align: center;
   background-color: #009999;
 }
-.draft-notice {
-  border-left: 4px solid #6495ED;
-  background-color: #F0F8FF;
-  padding: 10px 14px;
-  margin: 0 0 20px 0;
-}
 </style>
 </head>
 

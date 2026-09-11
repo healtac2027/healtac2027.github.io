@@ -3,7 +3,7 @@ permalink: /keynotes/
 title: "Keynote Speakers"
 ---
 
-<p style="border-left:4px solid #6495ED; background-color:#F0F8FF; padding:10px 14px;">
+<p class="draft-notice">
 <strong>Draft site.</strong> Keynote speakers for HealTAC 2027 have not yet been announced.
 </p>
 

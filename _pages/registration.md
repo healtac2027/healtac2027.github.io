@@ -3,7 +3,7 @@ permalink: /registration/
 title: "Registration"
 ---
 
-<p style="border-left:4px solid #6495ED; background-color:#F0F8FF; padding:10px 14px;">
+<p class="draft-notice">
 <strong>Draft site.</strong> Registration for HealTAC 2027 is not yet open.
 </p>
 

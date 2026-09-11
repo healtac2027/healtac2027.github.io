@@ -3,7 +3,7 @@ permalink: /presenters/
 title: "Instructions for Presenters"
 ---
 
-<p style="border-left:4px solid #6495ED; background-color:#F0F8FF; padding:10px 14px;">
+<p class="draft-notice">
 <strong>Draft site.</strong> Instructions for presenters will be published after notification of
 acceptance.
 </p>
